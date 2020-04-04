@@ -1,0 +1,98 @@
+.navigation {
+    flex:1;
+    flex-direction: row;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px grey;
+}
+.navigation a{
+    color: black;
+}
+.navigationLeft, .navigationRight, .navigationToggle, .navigationLogo, .navigationLiveButton, .contributeButton{
+    display: inline-block;
+}
+.navigationRight{
+    float: right;
+}
+.navigationLiveButton{
+    background-color: #f34626;
+    color: white;
+    padding: 0.1rem 1rem;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.navigationLogo{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.contributeButton a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    text-align: center;
+}
+.liveTag, .headerText{
+    display: inline-block;
+}
+@keyframes glowing {
+    0% {box-shadow: 0 0 10px #c6c3b4; }
+    20% { box-shadow: 0 0 10px #838177; }
+    40% { box-shadow: 0 0 15px #5e5c55; }
+    60% { box-shadow: 0 0 15px #3c3a37; }
+    80% { box-shadow: 0 0 15px #5e5c55; }
+    80% { box-shadow: 0 0 10px #838177; }
+}
+.liveTag{
+    background-color: #f34626;
+    color: white;
+    padding: 0.3rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    animation: glowing 1300ms infinite;
+    transition: 0.1s;
+}
+.headerText{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+.loader{
+    position: absolute;
+    width: 200px;
+    left:55%;
+    margin-left: -100px;
+    top:60%;
+    height: 200px;
+    margin-top: -100px
+}
+.totalCompanies{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.companySearch{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2rem;
+}
+.companySearch label{
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #6e6c63;
+}
+.tableHeader{
+    margin-top: 8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.statsSection{
+    background-color: #f7f7f7;
+}

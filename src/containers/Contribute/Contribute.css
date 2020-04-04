@@ -1,0 +1,17 @@
+.contributionForm{
+    width: 60%;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-left: 20%;
+    border: 1px solid lightgrey;
+    margin-bottom: 2rem;
+}
+.formHead{
+    width: 60%;
+    margin-left: 20%;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 4rem;
+    text-align: left;
+    margin-bottom: 3rem;
+}
